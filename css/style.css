@@ -26,6 +26,10 @@ hr{
   width: 8%;
   margin: 80px auto 80px auto;
 }
+.aboutme{
+  text-align: center;
+  padding: 3% 18% 1%;
+}
 .top-container{
   background-color: lightblue;
   position: relative;
@@ -33,7 +37,7 @@ hr{
 }
 .cloud_top{
   position: absolute;
-  top: 50px;
+  top: 100px;
   right: 250px;
 }
 
@@ -62,6 +66,14 @@ hr{
 .skill-row{
   width: 50%;
   margin: 100px auto 100px auto;
+}
+.clear-text{
+  text-align: center;
+  padding: 3% 3%;
+}
+.data-analyst{
+  text-align: left;
+  margin-left: 2%;
 }
 .profile{
   width: 50%;
