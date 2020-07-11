@@ -1,0 +1,129 @@
+body{
+  margin: 0;
+  text-align: center;
+  color: #40514e
+
+}
+h1{
+  font-size: 5.6rem;
+  margin-top: 20px;
+  font-family: 'Sacramento',cursive;
+  color: #66BFBF
+}
+h2{
+  font-size: 2rem;
+  margin-top: 0;
+  font-family: 'Indie Flower', cursive;
+  color: #cf7500;
+  font-weight:normal;
+}
+p{
+  line-height: 2;
+}
+hr{
+  border: dotted lightgrey 6px;
+  border-bottom: none;
+  width: 8%;
+  margin: 80px auto 80px auto;
+}
+.aboutme{
+  text-align: center;
+  padding: 3% 18% 1%;
+}
+.top-container{
+  background-color: lightblue;
+  position: relative;
+  padding-top: 120px;
+}
+.cloud_top{
+  position: absolute;
+  top: 100px;
+  right: 250px;
+}
+
+.cloud_bottom{
+  position: absolute;
+  border-bottom: 80px;
+  left:200px;
+}
+.analyst{
+  width: 25%;
+  float: left;
+  margin-bottom: 80px;
+  margin-right: 20px;
+}
+.programmer{
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+}
+.pianist{
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+.clear-text{
+  text-align: center;
+  padding: 3% 3%;
+}
+.data-analyst{
+  text-align: left;
+  margin-left: 2%;
+}
+.profile{
+  width: 50%;
+  margin:auto;
+}
+.middle-container{
+  margin: 10px auto 10px auto;
+  background-color: #faf2f2
+}
+.bottom-container{
+  background-color: #66bfbf;
+  padding: 20px 0 20px;
+}
+
+.myButton {
+	box-shadow: 0px 10px 14px -7px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:4px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+a{
+  color: #cf7500;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #eaf6f6;
+}
+.copyright{
+  color: #eaf6f6;
+}
+.linkedin{
+  size: 20px;
+}

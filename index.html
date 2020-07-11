@@ -1,99 +1,123 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Mason Zheng</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </head>
-  <body>
 
-     <nav class="navbar bg-dark navbar-expand-lg fixed-top navbar-dark">
-       <a class="navbar-brand" href="">Mason</a>
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-       </button>
-       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-         <ul class="navbar-nav ml-auto">
-           <li class="nav-item">
-             <a class="nav-link" href="">Home</a>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link" href="">AboutMe</a>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link" href="">Myskill</a>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link" href="">Contact</a>
-           </li>
-         </ul>
-       </div>
-     </nav>
+<head>
+  <meta charset="utf-8">
+  <title>Mason Zheng</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <a class="navbar-brand" href="">Mason</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">AboutMe</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skill">Myskill</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
   </nav>
-  <div class="top-container">
-    <img class="cloud_top" src="images/cloud.png" hight: 200px alt="could mason">
-    <p>
-    <h1>I'm Mason</h1>
-    </p>
-    <p>
-    <h2>A Data Analyst, programmer and piano player.</h2>
-    </p>
-    <img class="cloud_bottom" src="images/cloud.png" hight: 200px alt="could mason">
-    <img src="images/mountain.png" hight: 200px alt="mountain mason">
-  </div>
-  <div class="middle-container">
-    <div class="profile">
+  <section id="home">
 
-      <h2>Hello.</h2>
-      <p>I had been working in the global large telecom enterprise: Nokia-Alcatel-Shanghai-bell for over 19 years. I worked as an R&D developer, validation tester, post-sales technical support specialist, new product introduction manager, business
-        (intelligence) analyst, and account sales manager. I’m focused on the telecom technologies and information systems such as optical ICT system, data and business analytics. I’m significantly dedicated in IT fields including business
-        intelligence,
-        machine learning, business analytics, project management, technical management and B2B sales. Be good at using data analytics techniques including R Programming, Power BI, SQL and Tableau with business acumen to find the potential insight
-        behind
-        the raw data for decision making. I'm also interested in frontend development and playing the piano. Clik my youtube channel to see my teaching how to play the pinano with an absolutely mehtod in New Zealand University.</p>
+
+    <div class="top-container">
+      <img class="cloud_top" src="images/cloud.png" hight: 200px alt="could mason">
+      <p>
+      <h1>I'm Mason</h1>
+      </p>
+      <p>
+      <h2>A Data Analyst, programmer and piano player.</h2>
+      </p>
+      <img class="cloud_bottom" src="images/cloud.png" hight: 200px alt="could mason">
+      <img src="images/mountain.png" hight: 200px alt="mountain mason">
     </div>
-    <hr>
+    <div class="middle-container">
+      <div class="profile">
+  </section>
+
+  <section id="about">
+
+
+    <h2 class="aboutme">Hello.</h2>
+    <p class="aboutme">I had been working in the global large telecom enterprise: Nokia-Alcatel-Shanghai-bell for over 19 years. I worked as an R&D developer, validation tester, post-sales technical support specialist, new product introduction
+      manager, business
+      (intelligence) analyst, and account sales manager. I'm holding New Zealand PostGraduate Diploma in IT and focused on the telecom technologies and information systems such as optical ICT system, data and business analytics. I’m significantly dedicated in IT fields including business
+      intelligence,
+      machine learning, business analytics, project management, technical management and B2B sales. Be good at using data analytics techniques including R Programming, Python, Power BI, SQL and Tableau with business acumen to find the potential
+      insight
+      behind
+      the raw data for decision making. I'm also interested in web development using HTML/ CSS/ Bootstrap/ JaveScript and playing the piano. Clik my youtube channel to see my teaching how to play the pinano with an absolutely easy mehtod in New
+      Zealand University.</p>
+    </div>
+  </section>
+  <hr>
+  <section id="skill">
+
+
     <div class="skills">
       <h2>My Skills.</h2>
       <div class="skill-row">
-        <img class="analyst" src="images/analyst.png" alt="analyst-mason">
-        <h3>Data Analyst</h3>
-        <p class="clear-text">I'm good at using data analytics techniques including R Programming, Python, Power BI, SQL and Tableau with business acumen to find the potential insight behind the raw data for decision making.</p>
-
-        <h3>Programmer</h3>
-        <img class="programmer" src="images/programmer.png" alt="programmer-mason">
-        <p class="clear-text">Creating website is one of my habbit and I'm familiar with HTML, CSS and JavaScript.</p>
-
-        <h3>Piano Player</h3>
-        <img class="pianist" src="images/pianist.png" alt="pianist-mason">
-        <p>Playing the piano is my biggest habbit and I teach peaple how to play the piano in my spare time.</p>
+        <div>
+          <img class="analyst" src="images/analyst.png" alt="analyst-mason">
+          <h3 class="data-analyst">Data Analyst</h3>
+          <p class="clear-text">I'm good at using data analytics techniques including R Programming, Python, Power BI, SQL and Tableau with business acumen to find the potential insight and predict the future trend behind the raw data for decision making.</p>
+        </div>
+        <div>
+          <h3>Programmer</h3>
+          <img class="programmer" src="images/programmer.png" alt="programmer-mason">
+          <p class="clear-text">Creating website is one of my habit and I'm familiar with HTML, CSS Bootstrap and JavaScript. I used to create a couple of commerce website for business in my spare time</p>
+        </div>
+        <div>
+          <h3>Piano Player</h3>
+          <img class="pianist" src="images/pianist.png" alt="pianist-mason">
+          <p class="clear-text">Playing the piano is my another habit and I teach people how to play the piano in my founding piano school.</p>
+        </div>
       </div>
     </div>
+  </section>
+  <hr>
+  <section id="contact">
 
-    <hr>
+
     <div class="contact-me">
       <h2>Get In Touch</h2>
       <h3>Love New Zealand, and love China as well.</h3>
 
       <a class="myButton" href="mailto:mason.zheng@qq.com">CONTACT ME</a>
     </div>
-  </div>
+    </div>
 
 
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/mason-zheng">My LinkedIn</a>
-    <a class="footer-link" href="https://www.youtube.com/channel/UChtxxUMUIgwSUGoXt4Pbb6A?view_as=subscriber">My YouTube</a>
-    <a class="footer-link" href="https://www.facebook.com/mason.zheng.79?ref=bookmarks">My Facebook</a>
-    <p class="copyright">© 2020 Mason Zheng.</p>
-  </div>
-
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/mason-zheng">My LinkedIn</a>
+      <a class="footer-link" href="https://www.youtube.com/channel/UChtxxUMUIgwSUGoXt4Pbb6A?view_as=subscriber">My YouTube</a>
+      <a class="footer-link" href="https://www.facebook.com/mason.zheng.79?ref=bookmarks">My Facebook</a>
+      <p class="copyright">© 2020 Mason Zheng.</p>
+    </div>
+  </section>
 </body>
+
 </html>
